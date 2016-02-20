@@ -1,0 +1,19 @@
+{
+  "name": "vhraban/overture",
+  "type": "library",
+  "description": "Universal configuration tool",
+  "homepage": "https://github.com/vhraban/Overture",
+  "keywords": [ "configuration", "php" ],
+  "minimum-stability": "stable",
+  "license" : "MIT",
+  "authors": [
+    {
+      "name": "Vladimir Hraban",
+      "email": "vlad@vivec.co.uk",
+      "homepage": "http://www.vivec.co.uk"
+    }
+  ],
+  "require": {
+    "php": "^5.5 || ^7.0"
+  }
+}
