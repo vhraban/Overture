@@ -24,6 +24,11 @@
       "Overture\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Overture\\Tests\\": "tests/"
+    }
+  },
   "scripts" : {
     "lint": [
       "find -L src -name '*.php' -print0 | xargs -0 -n 1 -P 4 php -l"
