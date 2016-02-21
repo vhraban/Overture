@@ -1,4 +1,4 @@
-# Overture
+# Overture [![Build Status](https://travis-ci.org/vhraban/Overture.svg?branch=master)](https://travis-ci.org/vhraban/Overture)
 
 Overture is a universal PHP configuration tool. Traditionally frameworks tell us how and where to store our configuration data and it is not always easy to overrride default behaviour. Overture provides a common interface to retrieve configuration values regardless of where they stored, let it be a YML file in a project folder or a key stored in Consul.io.
 
