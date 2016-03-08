@@ -1,5 +1,5 @@
 <?php
-namespace Overture;
+namespace Overture\ProviderFoundation;
 
 use Overture\Exception\MissingKeyException;
 use Overture\Exception\UnexpectedValueException;

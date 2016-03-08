@@ -4,7 +4,7 @@ namespace Overture\Tests;
 use Overture\Exception\MissingKeyException;
 use Overture\Exception\UnexpectedValueException;
 use Overture\Overture;
-use Overture\OvertureProviderInterface;
+use Overture\ProviderFoundation\OvertureProviderInterface;
 use PHPUnit_Framework_MockObject_MockObject;
 use PHPUnit_Framework_TestCase;
 

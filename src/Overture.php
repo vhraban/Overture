@@ -3,6 +3,7 @@ namespace Overture;
 
 use Overture\Exception\MissingKeyException;
 use Overture\Exception\UnexpectedValueException;
+use Overture\ProviderFoundation\OvertureProviderInterface;
 
 class Overture
 {
