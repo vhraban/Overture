@@ -13,7 +13,8 @@ $AWSSecret = $overture->get('aws.secret');
 If the application scales and does not want to share configuration values anymore, we can always change the provider
 
 ```php
-$provider = new YamlProvider($configFile);
+$fileResource = new FileResource($configFile);
+$provider = new YamlProvider($fileResource);
 $overture = new Overture($provider);
 $AWSSecret = $overture->get('aws.secret');
 ```
